@@ -15,8 +15,9 @@ items = {
   'Coffee' : 0,
   'Tea' : 0,
   'Unicorn Tears' : 0
-
 }
+
+
 
 def welcome():
   intro = '''
@@ -28,6 +29,8 @@ def welcome():
     **************************************
   '''
   print(dedent(intro))
+
+
 
 def show_menu():
   menu = """
@@ -56,9 +59,9 @@ def show_menu():
     Tea
     Unicorn Tears
 
-
   """
   print(menu)
+
 
 
 def take_order():
@@ -87,6 +90,6 @@ def main():
   take_order()
 
 
+
 if __name__ == "__main__":
   main()
-
